@@ -1,0 +1,40 @@
+.information_container{
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+.right {
+    width: 80% !important;
+    overflow: visible !important;
+    margin: 30px auto;
+    height: max-content;
+}
+.appointments_container label{
+    text-align: center;
+}
+.appointments_container {
+    text-align: left !important;
+}
+.container_information h1{
+    text-align: center;
+}
+.information_container:hover{
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+}
+#add_patient{
+    display: block;
+
+}
+#add_doctor{
+    display: block;
+
+}
+#add_receptionist{
+    display: block;
+  
+}
+#add_department{
+    display: block;
+}
+#add_admin{
+    display: block;
+}

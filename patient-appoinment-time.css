@@ -1,0 +1,47 @@
+
+.doctor_container img {
+    height: 10em;
+    width: 10em;
+    border-radius: .50em;
+    object-fit: cover;
+    margin-bottom: 1.5em;
+
+}
+
+.appointment_time input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(0, 186, 253);
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+input[type="radio"]:checked {
+    border: 6px solid rgb(0, 186, 253);
+    outline: unset !important;
+}
+.doctor_container .get_appoint{
+    display: block;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #40b176;
+    padding: 12px;
+    width: max-content;
+    margin-left: 3em;
+    margin: 2em auto;
+}
+.doctor_container .get_appoint:hover{
+    background-color: #318459;
+}
+input[type="submit"]{
+    padding: .45em;
+    background-color: rgb(48, 193, 87);
+    color: white;
+    border-radius: 3px;
+}

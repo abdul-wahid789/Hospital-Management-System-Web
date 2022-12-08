@@ -1,0 +1,61 @@
+.receptionist_table{
+    align-items: center;
+    justify-content: center;
+}
+.receptionist_table h3{
+    vertical-align: middle;
+    margin: auto 0;
+}
+.appointments_container .delete{
+    background-color: rgb(217, 7, 7);
+    color: white;
+    padding: 12px;
+    border-radius: 2em;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.appointments_container .delete:hover{
+    background-color: rgb(110, 1, 1);
+}
+.appointments_container .approve{
+    background-color: rgb(9, 186, 29);
+    color: white;
+    padding: 12px;
+    border-radius: 2em;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.appointments_container .approve:hover{
+    background-color: rgb(5, 126, 20);
+}
+.appointments_container .doctor_show_btn{
+    background-color: rgb(6, 3, 191);
+    color: white;
+    padding: 12px;
+    border-radius: 2em;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 3vw;
+}
+.appointments_container .receptionist_show_btn{
+    background-color: rgb(38, 144, 70);
+    color: white;
+    padding: 12px;
+    border-radius: 2em;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.user_select_group{
+    margin-bottom: 10vh;
+}
+#receptionist_table{
+    display: none;
+}

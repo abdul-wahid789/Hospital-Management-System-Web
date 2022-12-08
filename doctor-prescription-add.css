@@ -1,0 +1,46 @@
+.prescription_table tr td{
+    padding: 0;
+}
+.prescription_table td input{
+    height: 80%;
+    padding: .45em 0;
+    border: 1px solid #07b587;
+    width: 100%;
+    outline: none;
+}
+.prescription_table tr .sl{
+    text-align: center;
+}
+.prescription_container button{
+    margin-top: 3vh;
+    background-color: #333333;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+}
+.prescription_container button:hover{
+    background-color: rgb(92, 92, 92);
+}
+.prescription_save{
+    background-color: #119548 !important;
+    margin-left: 5vw;
+}
+.prescription_save:hover{
+    background-color: #c7c115 !important;
+
+}
+.previous_records_group{
+    margin: 2em auto;
+    width: 100%;
+    text-align: center;
+}
+.previous_records{
+    padding: 10px ;
+    background-color: #119548;
+    border-radius: 1em;
+    color: white;
+    margin-right: 5vw;
+}

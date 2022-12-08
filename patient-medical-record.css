@@ -1,0 +1,16 @@
+.appointments_container{
+    margin-top: 10vh;
+}
+.appointments_container .view_pres{
+    background-color: #068966;
+    color: white;
+    font-size: 14px;
+    padding: 10px 40px;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+}
+
+.appointments_container .view_pres:hover{
+    background-color: #1f6d58;
+}

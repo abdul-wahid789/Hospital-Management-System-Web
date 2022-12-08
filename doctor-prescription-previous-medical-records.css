@@ -1,0 +1,21 @@
+.doctor-medical-records{
+    margin-top: 5vh;
+}
+.doctor-medical-records i{
+    font-weight: 900;
+    font-size: 1.5em !important;
+    vertical-align: middle;
+}
+.doctor-medical-records .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.doctor-medical-records .back_btn{
+    display: flex;
+    
+}
+.doctor-medical-records .back_btn p{
+    margin-left: .45em;
+    vertical-align: middle;
+    font-weight: 500;
+}

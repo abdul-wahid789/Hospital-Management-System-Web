@@ -1,0 +1,79 @@
+.pres_container{
+
+}
+.hospital_info{
+    display: flex;
+}
+.hospital_info .hospital_image img{
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.hospital_info .location{
+    margin-top: 12px;
+}
+
+.pres_container{
+    text-align: center;
+}
+.pres_container h1{
+    color: #3e3e3e;
+    margin-bottom: 1.5em;
+}
+.pres_container table{
+    width: 100%;
+
+}
+.pres_container table,
+.pres_container table tr,
+.pres_container table td,
+.prescription_table th
+{
+    border: 1px solid rgb(240, 240, 240);
+    border-collapse: collapse;
+    text-align: left;
+    color: #272b41;
+    padding: .25em 0;
+    padding-left: .75em;
+}
+.hospital_patient_info{
+    margin-bottom: 3vh;
+}
+.prescription_table th{
+    font-size: 1.2em;
+    color: #272b41;
+    padding: .50em 0;
+    padding-left: .75em;
+}
+
+.pres_container button{
+    margin-top: 2vh;
+    background-color: #15558d;
+    color: white;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 3em;
+    border: none;
+}
+.pres_container button:hover{
+    background-color: #09263e;
+}
+@media print{
+    body * {
+        visibility: hidden;
+      }
+      .pres_container, .pres_container * {
+        visibility: visible;
+      }
+      .pres_container button{
+        visibility: hidden;
+      }
+      .pres_container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+}

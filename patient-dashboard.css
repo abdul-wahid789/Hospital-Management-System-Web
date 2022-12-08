@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-Poppins: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--ff-Poppins);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    background-color: #15558d;
+    color: white;
+    padding: 3vh 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.header .logout a h3{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.header .logout i{
+    padding-right: 10px;
+}
+
+.container_2{
+    display: flex;
+    
+}
+aside .profile{
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid rgb(240, 240, 240);
+}
+aside .profile img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 3em;
+    margin-top: 40px;
+    background-color: #757575;
+    box-shadow: 0px 0px 10px rgba(1,1,1, 0.8);
+}
+aside .profile h3{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 17px;
+}
+aside .profile p{
+    color: #757575;
+    font-size: 13px;
+}
+aside{
+    width: 20%;
+    margin-left: 20px;
+}
+aside .menu{
+    list-style: none;   
+}
+.active_menu{
+    color: #0de0fe !important;
+}
+.menu li{
+    padding: 25px 30px;
+    color: #757575;
+    font-size: 18px;
+    border: 1px solid rgb(240, 240, 240);
+
+}
+.menu li i{
+    padding-right: 10px;
+}
+.container_2{
+    width: 100%;
+}
+.dashboard_items{
+    width: 70%;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.health_information{
+    margin: 4em 0;
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.information .information_container{
+    border: 1px solid rgb(240, 240, 240); 
+    padding: 2em 3em;
+    margin: 10px;
+    text-align: center;
+    width: max-content;
+    flex: 1 1 10em;
+}   
+.information .information_container h2{
+    font-size: 1rem;
+    color: #272b41;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.health_information h4{
+    text-align: center;
+}
+.appointments_container{
+    text-align: center;
+}
+.appointments_container h1{
+    color: #3e3e3e;
+    margin-bottom: 1.5em;
+}
+.appointments_container table{
+    width: 100%;
+
+}
+.appointments_container table th{
+    font-size: 1.2em;
+    color: #272b41;
+    padding: 1.25em 0;
+    padding-left: .75em;
+}
+.appointments_container table,
+.appointments_container table tr,
+.appointments_container table td,
+.appointments_container table th
+{
+    border: 1px solid rgb(240, 240, 240);
+    border-collapse: collapse;
+    text-align: left;
+    color: #272b41;
+    padding: 1.25em 0;
+    padding-left: .75em;
+}
+.appointments_container table td img{
+    height: 40px;
+    width: 40px;
+    border-radius: 2em;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.appointments_container .app_doctor_info{
+    display: flex;
+}
+.appointments_container .app_doctor_info h3{
+    color: #272b41;
+    font-size: inherit;
+    font-weight: 600;
+}
+.appointments_container .app_doctor_info p{
+    font-size: 12px;
+    font-weight: 300;
+}

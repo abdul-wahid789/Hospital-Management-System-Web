@@ -1,0 +1,16 @@
+.app_patient_info{
+    display: flex;
+    align-items: center;
+}
+.pres_button{
+    background-color: #068966;
+    color: white;
+    font-size: 14px;
+    padding: 10px 40px;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+}
+.pres_button:hover{
+    background-color: #1f6d58;
+}

@@ -1,0 +1,13 @@
+.reschedule{
+    background-color: rgb(9, 68, 186);
+    color: white;
+    padding: 12px;
+    border-radius: 2em;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.reschedule:hover{
+    background-color: rgb(6, 50, 138);
+}

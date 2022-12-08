@@ -1,0 +1,15 @@
+#container_information_2,
+#container_information_3{
+    display: block;
+}
+body{
+    overflow: scroll;
+}
+.right{
+    width: 50% !important;
+    overflow: visible !important;
+    margin: 30px auto;
+}
+.container_information{
+    margin-top: 20px;
+}

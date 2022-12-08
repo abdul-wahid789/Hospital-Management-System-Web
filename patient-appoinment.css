@@ -1,0 +1,15 @@
+.appointments_container{
+    margin-top: 10vh;
+}
+.new_appointment{
+    padding: .45em;
+    background-color: rgb(48, 193, 87);
+    color: white;
+    border-radius: 3px;
+}
+.new_appointment:hover{
+    background-color: rgb(36, 149, 66);
+}
+.appointments_container table{
+    margin-top: 30px;
+}
